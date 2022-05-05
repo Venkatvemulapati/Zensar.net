@@ -9,14 +9,14 @@ namespace CodeBasedQuestion
             public String Name { get; set; }
             public int Age { get; set; }
             Ticket Ticket { get; set; }
-            public String Date { get; set;}
+            
 
 
-            public Passenger(string name, int age ,string date)
+            public Passenger(string name, int age )
             {
                 Name = name;
                 Age = age;
-                DateOfJourney = date;
+                
                 Ticket = new Ticket();
 
             }
@@ -53,8 +53,8 @@ namespace CodeBasedQuestion
         static void Main(string[] args)
         {
             Console.WriteLine("Enter the Date of journey");
-            String Date = Console.ReadLine();
-            Passenger passenger = new Passenger("sai", 24,Date);
+            
+            Passenger passenger = new Passenger("sai", 24);
             Console.WriteLine("Enter the number of tickets want to book");
             passenger.TicketBooking(int.Parse(Console.ReadLine()));
             Console.ReadKey();
