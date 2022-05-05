@@ -1,0 +1,15 @@
+C:\Users\VV67576\Desktop\.NET\Csharp\CodeBasedQuestion\CodeBasedQuestion\obj\Debug\net6.0\CodeBasedQuestion.csproj.AssemblyReference.cache
+C:\Users\VV67576\Desktop\.NET\Csharp\CodeBasedQuestion\CodeBasedQuestion\obj\Debug\net6.0\CodeBasedQuestion.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\VV67576\Desktop\.NET\Csharp\CodeBasedQuestion\CodeBasedQuestion\obj\Debug\net6.0\CodeBasedQuestion.AssemblyInfoInputs.cache
+C:\Users\VV67576\Desktop\.NET\Csharp\CodeBasedQuestion\CodeBasedQuestion\obj\Debug\net6.0\CodeBasedQuestion.AssemblyInfo.cs
+C:\Users\VV67576\Desktop\.NET\Csharp\CodeBasedQuestion\CodeBasedQuestion\obj\Debug\net6.0\CodeBasedQuestion.csproj.CoreCompileInputs.cache
+C:\Users\VV67576\Desktop\.NET\Csharp\CodeBasedQuestion\CodeBasedQuestion\bin\Debug\net6.0\CodeBasedQuestion.exe
+C:\Users\VV67576\Desktop\.NET\Csharp\CodeBasedQuestion\CodeBasedQuestion\bin\Debug\net6.0\CodeBasedQuestion.deps.json
+C:\Users\VV67576\Desktop\.NET\Csharp\CodeBasedQuestion\CodeBasedQuestion\bin\Debug\net6.0\CodeBasedQuestion.runtimeconfig.json
+C:\Users\VV67576\Desktop\.NET\Csharp\CodeBasedQuestion\CodeBasedQuestion\bin\Debug\net6.0\CodeBasedQuestion.dll
+C:\Users\VV67576\Desktop\.NET\Csharp\CodeBasedQuestion\CodeBasedQuestion\bin\Debug\net6.0\ref\CodeBasedQuestion.dll
+C:\Users\VV67576\Desktop\.NET\Csharp\CodeBasedQuestion\CodeBasedQuestion\bin\Debug\net6.0\CodeBasedQuestion.pdb
+C:\Users\VV67576\Desktop\.NET\Csharp\CodeBasedQuestion\CodeBasedQuestion\obj\Debug\net6.0\CodeBasedQuestion.dll
+C:\Users\VV67576\Desktop\.NET\Csharp\CodeBasedQuestion\CodeBasedQuestion\obj\Debug\net6.0\ref\CodeBasedQuestion.dll
+C:\Users\VV67576\Desktop\.NET\Csharp\CodeBasedQuestion\CodeBasedQuestion\obj\Debug\net6.0\CodeBasedQuestion.pdb
+C:\Users\VV67576\Desktop\.NET\Csharp\CodeBasedQuestion\CodeBasedQuestion\obj\Debug\net6.0\CodeBasedQuestion.genruntimeconfig.cache
