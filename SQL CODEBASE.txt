@@ -1,13 +1,21 @@
---CODE BASEDF TEST 2
-SELECT DATEADD(DD,'1999-05-11',GETDATE())
+-use ZensarDB
+--2. Write a query to display your age in days
+              DECLARE  @dateofbirth datetime  
+              DECLARE @currentdate datetime  
+              DECLARE @years varchar(4)  
+              SET @dateofbirth = '1999-05-11'  
+              SET @currentdate  = getdate()
+              SELECT @years = datediff(day,@dateofbirth,@currentdate)  
+              SELECT @years   + ' day,' AS days
 
 
--- QUESTION 3
-CREATE TABLE EMP8(EMP_ID INT , 
-EMP_NAME VARCHAR(100),
-SALARY INT CONSTRAINT salary_range
-       CHECK(SALARY >= 5000 AND SALARY<=50000) 
- ,DEPT_NO INT
- )
+--3.    Create table EMP8 with the following columns and conditions. (Empid,Name,Salary,Deptno)
+--  a.    accept only 10,20,30 as deptno
+ --b.    Every employee salary must be in the range of 5000 to 50000 only
 
- --QUESTION 2
+
+              CREATE table EMP8(EMP_ID int primary key,
+              EMP_NAME varchar(30),
+              SALARY INT check(SALARY >5000 and SALARY<50000) ,
+              DEPT_NO int unique check(deptno<=30)
+              )
