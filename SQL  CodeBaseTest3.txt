@@ -1,0 +1,70 @@
+/* creation of database*/
+
+create table Code_Employee ( empno int primary key, 
+empname varchar(50) not null, 
+empsal numeric(10,2) check(empsal >= 25000) , 
+emptype varchar(1) check(emptype in('C','P')) ) 
+ INSERT INTO Code_Employee
+
+VALUES
+    (
+		'101',
+        'VENKATA SIVA SAI',
+        300000,
+        'P'
+        
+    ),
+    (
+		'102',
+        'VINAY ',
+        45000,
+        'C'
+    ),
+    (
+        103,
+        'MAHESH',
+        '50000',
+        'P'
+    ),
+	(
+		104,
+		'SUDHAKAR',
+		'60000',
+		'C'
+	);
+	SELECT * FROM Code_Employee
+
+
+	/*creation of stored procedure*/
+
+
+
+CREATE PROCEDURE AddEmployeee
+
+       @empno int, 
+       @empname varchar(200), 
+       @empsal numeric(10,2),
+	   @emptype varchar(200)
+
+AS
+
+BEGIN TRY
+
+    INSERT INTO Code_Employee
+    VALUES
+    (
+    @empno ,
+    @empname,
+    @empsal,
+    @emptype
+    )
+	DECLARE @Msg AS varchar(100);
+
+    SET @Msg='Table Detail Saved Successfully.'
+
+END TRY
+BEGIN CATCH
+
+    SET @Msg=ERROR_MESSAGE()
+END CATCH
+GO
