@@ -105,11 +105,39 @@ namespace StudentDetails
             Course course1 = new Course(1, "JAVA", "4 months", 5000);
             Course course2 = new Course(2, "PYTHON", "3 months", 5000);
             Course course3 = new Course(3, "CSHARP", "4 months", 8000); Info info = new Info();
+            //Console.WriteLine("**************STUDENTS DETAILS*************");
+            //Console.WriteLine();
+            //Console.WriteLine("-----------------Scenario 1----------------");
+            //Console.WriteLine();
+            //scenario1_Student();
+            //Console.WriteLine("-----------------Scenario 2----------------");
+            //Console.WriteLine();
+            //scenario2_Student();
+            //Console.WriteLine("-----------------Scenario 3----------------");
+            //Console.WriteLine();
+            //scenario3_Student();
+            //Console.WriteLine("***************COURSE DETAILS*************");
+            //Console.WriteLine();
+            //Console.WriteLine();
+            //Console.WriteLine("-----------------Scenario 1----------------");
+            //Console.WriteLine();
+            //scenario1_Course();
+            //Console.WriteLine("-----------------Scenario 2----------------");
+            //Console.WriteLine();
+            //scenario2_Course();
+            //Console.WriteLine("-----------------Scenario 3----------------");
+            //Console.WriteLine();
+            //scenario3_Course();
+
            
                
                 AppEngine engine = new AppEngine();
+            //Enroll e = new Enroll();
+            //ae.introduce();
+            //ae.register();
                 
                 new UserInterFace().showFirstScreen();
+            //ae.enroll();
 
                 Console.Read();
             
@@ -121,6 +149,7 @@ namespace StudentDetails
         public string nameOfCourse;
         public string duration;
         public double fees; public Course(int id, string name, string duration, double fees)
+            
         {
             this.id = id;
             this.nameOfCourse = name;
