@@ -32,16 +32,8 @@ namespace WebApplication16
 
         }
 
-        protected void TextBox1_TextChanged(object sender, EventArgs e)
-        {
-
-        }
-
-        protected void TextBox1_TextChanged1(object sender, EventArgs e)
-        {
-
-        }
-
+        
+       
         protected void button1_Click(object sender, EventArgs e)
         {
             if (DropDownList1.Items.FindByText("redmi").Selected == true)
